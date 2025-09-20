@@ -1,25 +1,24 @@
-# Python To-Do List (CLI)
+# Python To-Do List
 
-A simple **command-line To-Do List application** written in Python.  
-Users can add, view, mark tasks as done, delete tasks, and save them persistently in a JSON file.
-
----
+A simple command-line To-Do List application built with Python. This app allows users to add, view, mark as done, and delete tasks. Tasks are stored persistently in a JSON file, ensuring data is saved between sessions.
 
 ## Features
 
-- Add tasks ✅
-- View all tasks 📋
-- Mark tasks as done ✔️
-- Delete tasks ❌
-- Persistent storage using `data.json`
-- Simple and beginner-friendly
+- **Add Tasks**: Input new tasks to your to-do list.
+- **View Tasks**: Display all current tasks.
+- **Mark as Done**: Indicate completed tasks with a ✅.
+- **Delete Tasks**: Remove tasks from the list.
+- **Persistent Storage**: Tasks are saved in a `data.json` file, retaining data across sessions.
 
----
+## Requirements
 
-## Installation & Usage
+- Python 3.x
+- No external libraries required
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/rajrishabh61/python-todo-list.git
-cd python-todo-list
+## Usage
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rajrishabh61/python-todo-list.git
+   cd python-todo-list
